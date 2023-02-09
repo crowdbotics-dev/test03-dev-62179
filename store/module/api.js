@@ -1,7 +1,9 @@
-import axios from "axios"
+import axios from "axios";
 const module = axios.create({
-  baseURL:
-    "https://crowdbotics-slack-dev.crowdbotics.com/dashboard/app/2844/studio",
-  headers: { Accept: "application/json", "Content-Type": "application/json" }
-})
-export const apiService = {}
+  baseURL: "https://crowdbotics-slack-dev.crowdbotics.com/dashboard/app/2844/studio",
+  headers: {
+    Accept: "application/json",
+    "Content-Type": "application/json"
+  }
+});
+export const apiService = {};
